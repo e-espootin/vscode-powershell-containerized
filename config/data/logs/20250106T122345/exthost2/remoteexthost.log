@@ -1,0 +1,26 @@
+2025-01-06 12:30:07.889 [info] Extension host with pid 3079 started
+2025-01-06 12:30:07.903 [info] Lock '/config/data/User/workspaceStorage/481a7f57/vscode.lock': Lock acquired.
+2025-01-06 12:30:07.929 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-01-06 12:30:07.963 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-06 12:30:08.063 [info] Eager extensions activated
+2025-01-06 12:30:08.063 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 12:30:08.064 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 12:30:11.471 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-01-06 12:31:49.173 [info] ExtensionService#_doActivateExtension ms-vscode.powershell, startup: false, activationEvent: 'onLanguage:powershell'
+2025-01-06 12:31:49.174 [info] ExtensionService#_doActivateExtension ms-vscode.powershell-preview, startup: false, activationEvent: 'onLanguage:powershell'
+2025-01-06 12:31:49.174 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-06 12:31:49.249 [error] Activating extension ms-vscode.powershell-preview failed due to an error:
+2025-01-06 12:31:49.249 [error] Error: Cannot find module '/config/extensions/ms-vscode.powershell-preview-2020.3.0-universal/out/src/main'
+Require stack:
+- /app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+	at t._resolveFilename (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:167:22816)
+	at Module._load (node:internal/modules/cjs/loader:1051:27)
+	at e._load (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:175:10896)
+	at t._load (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:167:22534)
+	at i._load (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:159:21232)
+	at Module.require (node:internal/modules/cjs/loader:1311:19)
+	at require (node:internal/modules/helpers:179:18)
+	at Vz.xb (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:167:24417)
+	at async Promise.all (index 0)
+2025-01-06 12:32:13.296 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'

@@ -1,0 +1,20 @@
+  services:
+    code-server:
+      image: my-code-server
+      container_name: code-server
+      environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=Etc/UTC
+        - PASSWORD=123 #optional
+        # - HASHED_PASSWORD= #optional
+        # - SUDO_PASSWORD=password #optional
+        # - SUDO_PASSWORD_HASH= #optional
+        # - PROXY_DOMAIN=code-server.my.domain #optional
+        - DEFAULT_WORKSPACE=/config/workspace/dev1 #optional
+      volumes:
+        - ./config:/config
+        - ./home:/home/coder/project
+      ports:
+        - 8443:8443
+      restart: unless-stopped

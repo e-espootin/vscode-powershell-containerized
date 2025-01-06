@@ -1,0 +1,31 @@
+2025-01-06 12:23:47.065 [info] Extension host with pid 657 started
+2025-01-06 12:23:47.065 [error] Error: EEXIST: file already exists, open '/config/data/User/workspaceStorage/-4403a425/vscode.lock'
+2025-01-06 12:23:47.067 [info] Lock '/config/data/User/workspaceStorage/-4403a425/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-01-06 12:23:47.068 [info] Lock '/config/data/User/workspaceStorage/-4403a425/vscode.lock': The pid 609 appears to be gone.
+2025-01-06 12:23:47.068 [info] Lock '/config/data/User/workspaceStorage/-4403a425/vscode.lock': Deleting a stale lock.
+2025-01-06 12:23:47.084 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-06 12:23:47.086 [info] ExtensionService#_doActivateExtension ms-vscode.powershell, startup: false, activationEvent: 'onLanguage:powershell'
+2025-01-06 12:23:47.087 [info] ExtensionService#_doActivateExtension ms-vscode.powershell-preview, startup: false, activationEvent: 'onLanguage:powershell'
+2025-01-06 12:23:47.163 [error] Activating extension ms-vscode.powershell-preview failed due to an error:
+2025-01-06 12:23:47.163 [error] Error: Cannot find module '/config/extensions/ms-vscode.powershell-preview-2020.3.0-universal/out/src/main'
+Require stack:
+- /app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+	at t._resolveFilename (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:167:22816)
+	at Module._load (node:internal/modules/cjs/loader:1051:27)
+	at e._load (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:175:10896)
+	at t._load (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:167:22534)
+	at i._load (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:159:21232)
+	at Module.require (node:internal/modules/cjs/loader:1311:19)
+	at require (node:internal/modules/helpers:179:18)
+	at Vz.xb (file:///app/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:167:24417)
+	at async Promise.all (index 0)
+2025-01-06 12:23:47.180 [info] Lock '/config/data/User/workspaceStorage/-4403a425/vscode.lock': Lock acquired.
+2025-01-06 12:23:48.095 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-06 12:23:48.110 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-01-06 12:23:48.111 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-01-06 12:23:48.214 [info] Eager extensions activated
+2025-01-06 12:23:48.214 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 12:23:48.215 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-01-06 12:23:50.345 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-01-06 12:24:02.095 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

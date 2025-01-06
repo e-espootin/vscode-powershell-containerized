@@ -1,0 +1,117 @@
+[2025-01-06T11:04:11.595Z] info  code-server 4.96.2 08cbdfbdf11925e8a14ee03de97b942bba7e8a94
+[2025-01-06T11:04:11.595Z] info  Using user-data-dir /config/data
+[2025-01-06T11:04:11.601Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-01-06T11:04:11.601Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-01-06T11:04:11.601Z] info    - Authentication is enabled
+[2025-01-06T11:04:11.601Z] info      - Using password from $PASSWORD
+[2025-01-06T11:04:11.601Z] info    - Not serving HTTPS
+[2025-01-06T11:04:11.601Z] info  Session server listening on /config/data/code-server-ipc.sock
+[11:04:30] 
+
+
+
+
+[11:04:30] Extension host agent started.
+[11:04:30] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[11:04:30] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[11:04:34] [172.22.0.1][e96fa5d3][ManagementConnection] New connection established.
+[11:04:34] [172.22.0.1][6d0d35a9][ExtensionHostConnection] New connection established.
+[11:04:34] [172.22.0.1][6d0d35a9][ExtensionHostConnection] <1110> Launched Extension Host Process.
+[11:05:47] Getting Manifest... ms-vscode.powershell
+[11:05:48] Installing extension: ms-vscode.powershell {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.2', date: '2024-12-19T21:23:46.441Z' }
+}
+[11:05:50] Extension signature verification is not done: ms-vscode.powershell
+[11:05:53] Extracted extension to file:///config/extensions/ms-vscode.powershell-2024.4.0-universal: ms-vscode.powershell
+[11:05:53] Renamed to /config/extensions/ms-vscode.powershell-2024.4.0-universal
+[11:05:53] Extension installed successfully: ms-vscode.powershell file:///config/extensions/extensions.json
+[2025-01-06T11:09:44.420Z] info  code-server 4.96.2 08cbdfbdf11925e8a14ee03de97b942bba7e8a94
+[2025-01-06T11:09:44.421Z] info  Using user-data-dir /config/data
+[2025-01-06T11:09:44.427Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-01-06T11:09:44.427Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-01-06T11:09:44.427Z] info    - Authentication is enabled
+[2025-01-06T11:09:44.427Z] info      - Using password from $PASSWORD
+[2025-01-06T11:09:44.427Z] info    - Not serving HTTPS
+[2025-01-06T11:09:44.427Z] info  Session server listening on /config/data/code-server-ipc.sock
+[11:09:45] 
+
+
+
+
+[11:09:45] Extension host agent started.
+[11:10:43] [172.22.0.1][a1743ca9][ManagementConnection] New connection established.
+[11:10:43] [172.22.0.1][c564bb0a][ExtensionHostConnection] New connection established.
+[11:10:43] [172.22.0.1][c564bb0a][ExtensionHostConnection] <697> Launched Extension Host Process.
+[2025-01-06T11:26:52.604Z] info  code-server 4.96.2 08cbdfbdf11925e8a14ee03de97b942bba7e8a94
+[2025-01-06T11:26:52.610Z] info  Using user-data-dir /config/data
+[2025-01-06T11:26:52.619Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-01-06T11:26:52.619Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-01-06T11:26:52.619Z] info    - Authentication is enabled
+[2025-01-06T11:26:52.619Z] info      - Using password from $PASSWORD
+[2025-01-06T11:26:52.619Z] info    - Not serving HTTPS
+[2025-01-06T11:26:52.619Z] info  Session server listening on /config/data/code-server-ipc.sock
+[11:26:54] 
+
+
+
+
+[11:26:54] Extension host agent started.
+[11:26:54] [172.22.0.1][8d722f51][ManagementConnection] New connection established.
+[11:26:55] [172.22.0.1][96f93362][ExtensionHostConnection] New connection established.
+[11:26:55] [172.22.0.1][96f93362][ExtensionHostConnection] <609> Launched Extension Host Process.
+[11:27:29] Getting Manifest... ms-vscode.powershell-preview
+[11:27:30] Installing extension: ms-vscode.powershell-preview {
+  isMachineScoped: false,
+  installPreReleaseVersion: false,
+  pinned: false,
+  installOnlyNewlyAddedFromExtensionPack: true,
+  isApplicationScoped: false,
+  profileLocation: wr {
+    scheme: 'file',
+    authority: '',
+    path: '/config/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///config/extensions/extensions.json',
+    _fsPath: '/config/extensions/extensions.json'
+  },
+  productVersion: { version: '1.96.2', date: '2024-12-19T21:23:46.441Z' }
+}
+[11:27:31] Extension signature verification is not done: ms-vscode.powershell-preview
+[11:27:32] Extracted extension to file:///config/extensions/ms-vscode.powershell-preview-2020.3.0-universal: ms-vscode.powershell-preview
+[11:27:32] Renamed to /config/extensions/ms-vscode.powershell-preview-2020.3.0-universal
+[11:27:32] Extension installed successfully: ms-vscode.powershell-preview file:///config/extensions/extensions.json
+[2025-01-06T12:23:37.104Z] info  code-server 4.96.2 08cbdfbdf11925e8a14ee03de97b942bba7e8a94
+[2025-01-06T12:23:37.105Z] info  Using user-data-dir /config/data
+[2025-01-06T12:23:37.111Z] info  Using config file /config/.config/code-server/config.yaml
+[2025-01-06T12:23:37.111Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2025-01-06T12:23:37.111Z] info    - Authentication is enabled
+[2025-01-06T12:23:37.111Z] info      - Using password from $PASSWORD
+[2025-01-06T12:23:37.111Z] info    - Not serving HTTPS
+[2025-01-06T12:23:37.111Z] info  Session server listening on /config/data/code-server-ipc.sock
+[12:23:45] 
+
+
+
+
+[12:23:45] Extension host agent started.
+[12:23:46] [172.22.0.1][3163db70][ManagementConnection] New connection established.
+[12:23:46] [172.22.0.1][d8a28709][ExtensionHostConnection] New connection established.
+[12:23:46] [172.22.0.1][d8a28709][ExtensionHostConnection] <657> Launched Extension Host Process.
+[12:30:06] [172.22.0.1][fd4647e4][ManagementConnection] New connection established.
+[12:30:07] [172.22.0.1][2e10d64e][ExtensionHostConnection] New connection established.
+[12:30:07] [172.22.0.1][2e10d64e][ExtensionHostConnection] <3079> Launched Extension Host Process.

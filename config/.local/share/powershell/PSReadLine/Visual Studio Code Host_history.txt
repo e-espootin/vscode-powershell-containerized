@@ -1,0 +1,5 @@
+. '/config/workspace/test1/dev1.ps1'
+pswsh
+ps --version
+$PSVersionTable
+. '/config/workspace/test1/dev1.ps1'

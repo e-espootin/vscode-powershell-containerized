@@ -1,0 +1,20 @@
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[11:05:50] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /app/code-server/lib/vscode/out/server-main.js
+a socket was left hanging
+a socket was left hanging
+[11:09:46] [172.22.0.1][e96fa5d3][ManagementConnection] Unknown reconnection token (never seen).
+[11:09:46] [172.22.0.1][6d0d35a9][ExtensionHostConnection] Unknown reconnection token (never seen).
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+a socket was left hanging
+a socket was left hanging
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[11:27:31] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /app/code-server/lib/vscode/out/server-main.js
+a socket was left hanging
+a socket was left hanging
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /app/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm

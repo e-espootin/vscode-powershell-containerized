@@ -1,0 +1,18 @@
+2025-01-06 11:04:30.056 [info] 
+
+
+
+
+2025-01-06 11:04:30.060 [info] Extension host agent started.
+2025-01-06 11:04:30.067 [info] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+2025-01-06 11:04:30.078 [info] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+2025-01-06 11:04:34.231 [info] [172.22.0.1][e96fa5d3][ManagementConnection] New connection established.
+2025-01-06 11:04:34.630 [info] [172.22.0.1][6d0d35a9][ExtensionHostConnection] New connection established.
+2025-01-06 11:04:34.691 [info] [172.22.0.1][6d0d35a9][ExtensionHostConnection] <1110> Launched Extension Host Process.
+2025-01-06 11:05:47.369 [info] Getting Manifest... ms-vscode.powershell
+2025-01-06 11:05:48.253 [info] Installing extension: ms-vscode.powershell {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/config/extensions/extensions.json","external":"file:///config/extensions/extensions.json","path":"/config/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.96.2","date":"2024-12-19T21:23:46.441Z"}}
+2025-01-06 11:05:50.554 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /app/code-server/lib/vscode/out/server-main.js
+2025-01-06 11:05:50.554 [info] Extension signature verification is not done: ms-vscode.powershell
+2025-01-06 11:05:53.220 [info] Extracted extension to file:///config/extensions/ms-vscode.powershell-2024.4.0-universal: ms-vscode.powershell
+2025-01-06 11:05:53.243 [info] Renamed to /config/extensions/ms-vscode.powershell-2024.4.0-universal
+2025-01-06 11:05:53.249 [info] Extension installed successfully: ms-vscode.powershell file:///config/extensions/extensions.json
